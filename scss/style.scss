@@ -35,6 +35,14 @@ body
         align-items: center;
         padding: 100px 50px 100px 50px;
     }
+    &-products
+    {
+        max-width: 1000px;
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
     @media(max-width: 1024px)
     {
         padding-left: 7px;
