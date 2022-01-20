@@ -4,6 +4,7 @@
 $accent-color:#F46752;
 $main-color: white;
 $text-color: #0f0b0b;
+$space-color: #101419;
 
 @mixin font
 {
@@ -32,6 +33,7 @@ body
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 100px 50px 100px 50px;
     }
     @media(max-width: 1024px)
     {
@@ -240,6 +242,10 @@ body
         border: none;
         margin-left: 0;
     }
+    &-primary
+    {
+        background-color: $space-color;
+    }
 }
 
 .d-hidden
@@ -371,7 +377,7 @@ body
         background-position-x: right;
         padding-left: 150px;
         background-size: 736px 800px;
-        background-color: #101419;
+        background-color: $space-color;
     }
     &-radio
     {
@@ -461,4 +467,16 @@ body
     font-size: 19px;
     line-height: 30px;
     color: #5A6482;
+}
+
+.card
+{
+    &-title
+    {
+        color: $text-color;
+    }
+    &-text
+    {
+        color: $text-color;
+    }
 }
