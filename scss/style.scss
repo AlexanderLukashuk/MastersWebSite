@@ -254,6 +254,16 @@ body
     {
         background-color: $space-color;
     }
+    &-buy
+    {
+        background-color: $space-color;
+        border: none;
+        color: whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+        width: 200px;
+    }
 }
 
 .d-hidden
