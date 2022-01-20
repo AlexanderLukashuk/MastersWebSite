@@ -27,6 +27,12 @@ body
 {
     max-width: 1500px;
     margin: 0 auto;
+    &-cards
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     @media(max-width: 1024px)
     {
         padding-left: 7px;
