@@ -366,18 +366,110 @@ body
         padding-left: 150px;
         background-size: 736px 800px;
         background-color: #101419;
-        @media(max-width: 1389px)
+    }
+    &-radio
+    {
+        background-color: #F9F5F2;
+        padding-top: 85px;
+        padding-bottom: 124px;
+    }
+}
+
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &-reverse
+    {
+        flex-direction: row-reverse;
+    }
+}
+
+.cover
+{
+    img
+    {
+        width: 414px;
+        height: 373px;
+        padding: 31px 43px;
+        background-color: #fff;
+    }
+    &__img
+    {
+        p
         {
-            background-image: none;
+            margin-top: 5px;
+            margin-bottom: 0;
+            color: #5A6482;
+            span
+            {
+                color: $accent-color;
+                font-size: 16px;
+                line-height: 19px;
+            }
         }
-        @media(max-width: 1024px)
+    }
+    &__wrapper
+    {
+        width: 35%;
+    }
+    .title
+    {
+        margin-bottom: 19px;
+        margin-top: 0;
+    }
+    .button
+    {
+        margin-top: 32px;
+    }
+}
+
+.subtitle
+{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: $accent-color;
+    margin-bottom: 28px;
+}
+
+.title
+{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+    color: $text-color;
+    &_medium
+    {
+        font-weight: 500;
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+    @media(max-width: 1024px)
+    {
+        br
         {
-            background-position: right;
-            background-size: 60%;
+            display: none;
         }
-        @media(max-width: 767px)
-        {
-            background-image: none;
-        }
+    }
+    @media(max-width: 767px)
+    {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+.descr
+{
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    color: #5A6482;
+    @media(max-width: 767px)
+    {
+        font-size: 14px;
+        line-height: 20px;
     }
 }
