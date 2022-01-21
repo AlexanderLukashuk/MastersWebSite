@@ -1,24 +1,11 @@
 @import"normalize";
 
-//$main-color:#1D253C;
-$accent-color:#F46752;
 $main-color: white;
 $text-color: #0f0b0b;
 $space-color: #101419;
 
-@mixin font
-{
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    color: red;
-    line-height: 200%;
-}
-
 body
 {
-    //position: relative;
-    //font-family: 'Roboto', sans-serif;
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     color: $main-color;
@@ -43,30 +30,17 @@ body
         margin-left: auto;
         margin-right: auto;
     }
-    @media(max-width: 1024px)
-    {
-        padding-left: 7px;
-        padding-right: 7px;
-    }
 }
 
 .header
 {
-    //padding-top: 5px;
-    //padding-bottom: 1px;
     display: flex;
     height: 100%;
-    //flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
     line-height: 19px;
     background-color: $main-color;
-    @media(max-width: 767px)
-    {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
     .row{
         width: auto;
     }
@@ -118,19 +92,6 @@ body
         display: flex;
         align-items: center;
         flex-grow: 1;
-        @media(max-width: 767px)
-        {
-            flex-direction: column;
-            justify-content: space-between;
-            margin: 0;
-            padding: 0;
-        }
-        @media(max-width: 400px)
-        {
-            flex-direction: row;
-            display: flex;
-            justify-content: space-evenly;
-        }
         a
         {
             color: $text-color;
@@ -140,11 +101,6 @@ body
         }
         &__list
         {
-            @media(max-width: 767px)
-            {
-                padding: 0;
-                padding-bottom: 10px;
-            }
             padding-right: 35px;
             a
             {
@@ -194,27 +150,7 @@ body
             margin-right: 39px;
         }
     }
-    /*@media(max-width: 992px)
-    {
-
-    }
-    @media(max-width: 767px)
-    {
-
-    }*/
 }
-
-.input
-{
-    .colortext
-    {
-        color: green;       
-    }
-}
-
-
-
-
 
 .btn
 {
@@ -229,11 +165,6 @@ body
     border-radius: 4px;
     margin-left: 39px;
     cursor: pointer;
-    @media(max-width: 767px)
-    {
-        display: block;
-        margin: 0;
-    }
     &:hover
     {
         background-color: grey;
@@ -272,19 +203,11 @@ body
 .d-hidden
 {
     display: none;
-    @media(max-width: 400px)
-    {
-        display: flex;
-    }
 }
 
 .n-hidden
 {
     display: flex;
-    @media(max-width: 400px)
-    {
-        display: none;
-    }
 }
 
 .button
@@ -301,16 +224,6 @@ body
     {
         outline: none;
     }
-    /*&::after
-    {
-        content: "";
-        background-image: url(../img/blue-arrow.svg);
-        width: 29px;
-        height: 10px;
-        position: absolute;
-        right: -27%;
-        top: 25%;
-    }*/
 }
 
 .main
@@ -321,13 +234,6 @@ body
     height: 775px;
     padding-top: 223px;
     box-sizing: border-box;
-    @media(max-width: 767px)
-    {
-        text-align: center;
-        padding-bottom: 150px;
-        height: auto;
-        padding-top: 150px;
-    }
     &__author
     {
         font-weight: 600;
@@ -336,24 +242,9 @@ body
         text-transform: uppercase;
         color: $accent-color;
     }
-    h1
+    &__title
     {
-        font-weight: 600;
-        font-size: 64px;
-        line-height: 68px;
-        text-transform: capitalize;
         color: $main-color;
-        width: 463px;
-        margin-top: 0;
-        margin-bottom: 26px;
-        @include font ();
-        @media(max-width: 767px)
-        {
-            font-size: 40px;
-            line-height: 50px;
-            margin: 0 auto 20px;
-            width: 80%;
-        }
     }
     &__subtitle
     {
@@ -363,24 +254,6 @@ body
         color: #5A6482;
         width: 411px;
         margin-bottom: 40px;
-        @media(max-width: 767px)
-        {
-            font-size: 18px;
-            line-height: 24px;
-            width: 80%;
-            margin: 0 auto 20px;
-        }
-    }
-    // &__img
-    // {
-    //     padding-left: 500px;
-    //     height: 800px;
-    //     width: 736px;
-    // }
-    @media(max-width: 1024px)
-    {
-        height: 600px;
-        padding-top: 100px;
     }
     .btn
     {
@@ -390,7 +263,6 @@ body
 
 .page
 {
-    //box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
     &-main
     {
         background-image: url(../img/main_image.png);
