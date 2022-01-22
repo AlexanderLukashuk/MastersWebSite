@@ -261,17 +261,49 @@ body
     }
 }
 
+// .help
+// {
+//     background-image: url(../img/help_page.jpg);
+//     background-repeat: no-repeat;
+//     background-position-x: right;
+//     padding-left: 150px;
+//     background-size: 736px 800px;
+//     background-color: $space-color;
+// }
+
 .page
 {
     &-main
     {
-        background-image: url(../img/main_image.png);
+        background-image: url(../img/help.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        padding-left: 150px;
+        background-size: 736px 800px;
+        background-color: $space-color;
+        // &-help
+        // {
+        //     background-image: url(../img/logo.png);
+        // }
+    }
+    &-pomogite
+    {
+        background-image: url(../img/help_page.jpg);
         background-repeat: no-repeat;
         background-position-x: right;
         padding-left: 150px;
         background-size: 736px 800px;
         background-color: $space-color;
     }
+    // &-help
+    // {
+    //     background-image: url(../img/help-image.png);
+    //     background-repeat: no-repeat;
+    //     background-position-x: right;
+    //     padding-left: 150px;
+    //     background-size: 736px 800px;
+    //     background-color: $space-color;
+    // }
     &-radio
     {
         background-color: #F9F5F2;
@@ -283,6 +315,16 @@ body
         background-color: $space-color;
     }
 }
+
+// #help
+// {
+//     background-image: url(../img/logo.png);
+//     background-repeat: no-repeat;
+//     background-position-x: right;
+//     padding-left: 150px;
+//     background-size: 736px 800px;
+//     background-color: $space-color;
+// }
 
 .flex
 {
@@ -306,18 +348,11 @@ body
     }
     &__img
     {
-        p
-        {
-            margin-top: 5px;
-            margin-bottom: 0;
-            color: #5A6482;
-            span
-            {
-                color: $accent-color;
-                font-size: 16px;
-                line-height: 19px;
-            }
-        }
+        // transition: transform .2s;
+        // &:hover
+        // {
+        //     transform: scale(2.5);
+        // }
     }
     &__wrapper
     {
@@ -376,4 +411,20 @@ body
     {
         color: $text-color;
     }
+    &:hover
+    {
+        transform: scale(1.5);
+    }
+}
+
+.card:hover
+{
+    //-webkit-transform: scale(1.2);
+    //-ms-transform: scale(1.2);
+    transform: scale(1.5);
+}
+
+.cover__img:hover
+{
+    transform: scale(1.5);
 }
