@@ -1,0 +1,17 @@
+.logIn
+{
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body-logIn
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 100px 50px 100px 50px;
+}
