@@ -29,6 +29,23 @@ body
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+        // &__log
+        // {
+        //     //max-width: 1000px;
+        //     //display: flex;
+        //     //align-items: center;
+        //     margin-left: auto;
+        //     margin-right: auto;
+        //     padding-top: 200px;
+        // }
+    }
+    &-log
+    {
+        //max-width: 1000px;
+        //display: flex;
+        //align-items: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -286,7 +303,16 @@ body
         //     background-image: url(../img/logo.png);
         // }
     }
-    &-pomogite
+    // &-pomogite
+    // {
+    //     background-image: url(../img/help_page.jpg);
+    //     background-repeat: no-repeat;
+    //     background-position-x: right;
+    //     padding-left: 150px;
+    //     background-size: 736px 800px;
+    //     background-color: $space-color;
+    // }
+    &-help
     {
         background-image: url(../img/help_page.jpg);
         background-repeat: no-repeat;
@@ -295,15 +321,6 @@ body
         background-size: 736px 800px;
         background-color: $space-color;
     }
-    // &-help
-    // {
-    //     background-image: url(../img/help-image.png);
-    //     background-repeat: no-repeat;
-    //     background-position-x: right;
-    //     padding-left: 150px;
-    //     background-size: 736px 800px;
-    //     background-color: $space-color;
-    // }
     &-radio
     {
         background-color: #F9F5F2;
@@ -311,6 +328,14 @@ body
         padding-bottom: 124px;
     }
     &-actors
+    {
+        background-color: $space-color;
+    }
+    &-logIn
+    {
+        background-color: $space-color;
+    }
+    &-test
     {
         background-color: $space-color;
     }
@@ -411,20 +436,24 @@ body
     {
         color: $text-color;
     }
-    &:hover
+    &-logIn
     {
-        transform: scale(1.5);
+
     }
+    // &:hover
+    // {
+    //     transform: scale(1.5);
+    // }
 }
 
-.card:hover
-{
-    //-webkit-transform: scale(1.2);
-    //-ms-transform: scale(1.2);
-    transform: scale(1.5);
-}
+// .card:hover
+// {
+//     //-webkit-transform: scale(1.2);
+//     //-ms-transform: scale(1.2);
+//     transform: scale(1.5);
+// }
 
-.cover__img:hover
-{
-    transform: scale(1.5);
-}
+// .cover__img:hover
+// {
+//     transform: scale(1.5);
+// }
