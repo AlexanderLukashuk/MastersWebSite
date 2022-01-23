@@ -1,3 +1,11 @@
+.page-logIn
+{
+    background-image: url(../img/main_image.png);
+    background-position-x: right;
+    background-size: 736px 800px;
+    background-color: #101419;
+}
+
 .logIn
 {
     max-width: 1000px;
@@ -14,4 +22,23 @@
     align-items: center;
     flex-flow: column wrap;
     padding: 100px 50px 100px 50px;
+}
+
+.inputer
+{
+    width: 500px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card-body-logIn__checkbox
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
