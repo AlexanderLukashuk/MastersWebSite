@@ -105,3 +105,24 @@ $(".header-menu__list_link").css({
     "font-size": "large",
     "font-weight": "bold"
 });
+
+$(".header-menu__list").css({
+    "padding-right": "35px"
+});
+
+$( document ).ready(function(){
+    $(".header-menu__list").hover(function() {
+    $(".header-menu__list").css("color", "purple");});
+});
+
+$(".header-btns__login").css({
+    "border": "none",
+    "backgroundColor": "white",
+    "cursor": "pointer",
+});
+
+$(".header-btns__register").css({
+    "border": "none",
+    "backgroundColor": "white",
+    "cursor": "pointer",
+});
