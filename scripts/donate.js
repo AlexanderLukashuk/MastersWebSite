@@ -24,11 +24,11 @@ var headerMenu = $("<ul class='header-menu'></ul>");
 // }
 
 let headerMenuList = [
-    $("<li class='header-menu__list'><a id='header-menu__list_link' href='index.html'>Dungeon</a></li>"),
-    $("<li class='header-menu__list'><a id='header-menu__list_link' href='https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D1%80%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD,_%D0%91%D0%B8%D0%BB%D0%BB%D0%B8'>The Best Master</a></li>"),
-    $("<li class='header-menu__list'><a id='header-menu__list_link' href='#'>Why Billy</a></li>"),
-    $("<li class='header-menu__list'><a id='header-menu__list_link' href='help.html'>Help</a></li>"),
-    $("<li class='header-menu__list'><a id='header-menu__list_link' href='donate.html'>Donate</a></li>")
+    $("<li class='header-menu__list'><a class='header-menu__list_link' href='index.html'>Dungeon</a></li>"),
+    $("<li class='header-menu__list'><a class='header-menu__list_link' href='https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D1%80%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD,_%D0%91%D0%B8%D0%BB%D0%BB%D0%B8'>The Best Master</a></li>"),
+    $("<li class='header-menu__list'><a class='header-menu__list_link' href='#'>Why Billy</a></li>"),
+    $("<li class='header-menu__list'><a class='header-menu__list_link' href='help.html'>Help</a></li>"),
+    $("<li class='header-menu__list'><a class='header-menu__list_link' href='donate.html'>Donate</a></li>")
 ];
 
 
@@ -97,4 +97,11 @@ $(".header-menu").css({
     "display": "flex",
     "align-items": "center",
     "flex-grow": "1"
+});
+
+$(".header-menu__list_link").css({
+    "color": "#0f0b0b",
+    "text-decoration": "underline",
+    "font-size": "large",
+    "font-weight": "bold"
 });
