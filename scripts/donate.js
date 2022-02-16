@@ -57,9 +57,45 @@ for (i = 0; i < 3; i++)
 //     'max-width', '1500px'
 // };
 
-$(".container").css('background-color', 'purple');
+
+
+
 
 header.append(headerLogo).append(headerLogoImage).append(headerMenu).append(headerButtons);
 
 headerPage.append((headerContainer.append(header)));
 $("body").append(headerPage);
+
+$(".container").css({
+    "max-width": "1500px",
+    "margin": "0 auto"
+});
+
+$(".header").css({
+    "display": "flex",
+    "height": "100%",
+    "justify-content": "space-between",
+    "align-items": "center",
+    "font-size": "16px",
+    "line-height": "19px",
+    "backgroundColor": "white"
+});
+
+$(".header__logo").css({
+    "width": "75px",
+    "height": "35px",
+    "padding-left": "10px"
+});
+
+$(".header__logo_image").css({
+    "width": "75px",
+    "height": "35px",
+    "padding-left": "10px"
+});
+
+$(".header-menu").css({
+    "list-style-type": "none",
+    "display": "flex",
+    "align-items": "center",
+    "flex-grow": "1"
+});
