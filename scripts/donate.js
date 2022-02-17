@@ -63,8 +63,8 @@ var mainWrapper = $("<div class='main__wrapper'></div>");
 var mainAuthor = $("<div class='main__author'>MEET BILLY</div>");
 var mainTitle = $("<h1 class='main__title'>Enter the donation amount</h1>");
 var mainSubtitle = $("<p class='main__subtitle'>All donations will be used to improve the site and the dungeon</p>");
-var inputDonate = $("<input class='donate' type='text' size='40'>")
-var get300BucksBtn = $("<button name='getBucks' id='btn_orange' class='btn'>Get $300&rarr;</button>");
+var inputDonate = $("<input class='donate' type='text' size='40' placeholder='Donate'>")
+var get300BucksBtn = $("<button name='getBucks' id='btn_orange' class='btn'>Donate&rarr;</button>");
 
 
 
@@ -198,7 +198,17 @@ $("#btn_orange").css({
     "color": "#fff",
     "border": "none",
     "margin-left": "0",
-    "margin": "0 auto"
+    "margin": "0 auto",
+    "height": "45px",
+    "border-radius": "20px"
+});
+
+$(".donate").css({
+    "padding": "10px",
+    "margin": "10px 10px 10px 10px",
+    "border": "0",
+    "box-shadow": "0 0 15px 4px rgba(0,0,0,0)",
+    "border-radius": "20px"
 });
 
 // $("body").css({
