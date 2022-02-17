@@ -42,7 +42,7 @@ var headerButtons = $("<div class='header-btns'></div>");
 let buttons = [
     $("<button class='header-btns__login' onclick='window.location='logIn.html''>Log in</button>"),
     $("<button class='header-btns__login' onclick='window.location='register.html''>Register</button>"),
-    $("<button class='btn header-btns__price'>Get $300</button>")
+    $("<button class='btn'>Get $300</button>")
 ];
 
 for (i = 0; i < 3; i++)
@@ -60,7 +60,7 @@ for (i = 0; i < 3; i++)
 
 
 
-header.append(headerLogo).append(headerLogoImage).append(headerMenu).append(headerButtons);
+header.append(headerLogo.append(headerLogoImage)).append(headerMenu).append(headerButtons);
 
 headerPage.append((headerContainer.append(header)));
 $("body").append(headerPage);
@@ -110,10 +110,10 @@ $(".header-menu__list").css({
     "padding-right": "35px"
 });
 
-$( document ).ready(function(){
-    $(".header-menu__list").hover(function() {
-    $(".header-menu__list").css("color", "purple");});
-});
+// $( document ).ready(function(){
+//     $(".header-menu__list").hover(function() {
+//     $(".header-menu__list").css("color", "purple");});
+// });
 
 $(".header-btns__login").css({
     "border": "none",
@@ -126,3 +126,19 @@ $(".header-btns__register").css({
     "backgroundColor": "white",
     "cursor": "pointer",
 });
+
+$(".btn").css({
+    "font-weight": "600",
+    "font-size": "14px",
+    "line-height": "17px",
+    "text-transform": "uppercase",
+    "backgroundColor": "#fff",
+    "padding": "13px, 31px, 14px",
+    "border": "1px solid rgba(29, 37, 60, 0.2)",
+    "box-sizing": "border-box",
+    "border-radius": "4px",
+    "margin-left": "39px",
+    "cursor": "pointer"
+});
+
+// $(".btn").hover($(".btn header-btns__price").css("backgroundColor", "grey"));
