@@ -155,3 +155,39 @@ $(".btn").css({
 });
 
 // $(".btn").hover($(".btn header-btns__price").css("backgroundColor", "grey"));
+
+$(".page-main").css({
+    "background-image": "url('img/donate.png')",
+    "background-repeat": "no-repeat",
+    "background-position-x": "right",
+    "padding-left": "150px",
+    "background-size": "736px 800px",
+    "backgroundColor": "#101419"
+});
+
+$(".main").css({
+    "height": "775px",
+    "padding-top": "223px",
+    "box-sizing": "border-box"
+});
+
+$(".main__author").css({
+    "font-weight": "600",
+    "font-size": "18px",
+    "line-height": "27px",
+    "text-transfom": "uppercase",
+    "color": "red"
+});
+
+$(".main__title").css({
+    "color": "white"
+});
+
+$(".main__subtitle").css({
+    "font-weight": "500",
+    "font-size": "22px",
+    "line-height": "33px",
+    "color": "#5A6482",
+    "width": "441px",
+    "margin-bottom": "40px"
+});
