@@ -61,8 +61,9 @@ var mainContainer = $("<div class='container'></div>");
 var main = $("<div class='main'></div>");
 var mainWrapper = $("<div class='main__wrapper'></div>");
 var mainAuthor = $("<div class='main__author'>MEET BILLY</div>");
-var mainTitle = $("<h1 class='main__title'>Welcome to the club buddy</h1>");
-var mainSubtitle = $("<p class='main__subtitle'>Some text</p>");
+var mainTitle = $("<h1 class='main__title'>Enter the donation amount</h1>");
+var mainSubtitle = $("<p class='main__subtitle'>All donations will be used to improve the site and the dungeon</p>");
+var inputDonate = $("<input class='donate' type='text' size='40'>")
 var get300BucksBtn = $("<button name='getBucks' id='btn_orange' class='btn'>Get $300&rarr;</button>");
 
 
@@ -72,7 +73,7 @@ header.append(headerLogo.append(headerLogoImage)).append(headerMenu).append(head
 headerPage.append((headerContainer.append(header)));
 $("body").append(headerPage);
 
-mainWrapper.append(mainAuthor).append(mainTitle).append(mainSubtitle).append(get300BucksBtn);
+mainWrapper.append(mainAuthor).append(mainTitle).append(mainSubtitle).append(inputDonate).append(get300BucksBtn);
 main.append(mainWrapper);
 mainContainer.append(main);
 pageMain.append(mainContainer);
@@ -199,3 +200,9 @@ $("#btn_orange").css({
     "margin-left": "0",
     "margin": "0 auto"
 });
+
+// $("body").css({
+//     "font-family": "'Work Sans', sans-serif",
+//     "font-weight": 400,
+//     "color": "white"
+// });
