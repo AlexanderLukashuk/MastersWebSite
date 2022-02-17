@@ -63,7 +63,7 @@ var mainWrapper = $("<div class='main__wrapper'></div>");
 var mainAuthor = $("<div class='main__author'>MEET BILLY</div>");
 var mainTitle = $("<h1 class='main__title'>Welcome to the club buddy</h1>");
 var mainSubtitle = $("<p class='main__subtitle'>Some text</p>");
-var get300BucksBtn = $("<button name='getBucks' class='btn btn_orange'>Get $300&rarr;</button>");
+var get300BucksBtn = $("<button name='getBucks' id='btn_orange' class='btn'>Get $300&rarr;</button>");
 
 
 
@@ -180,7 +180,7 @@ $(".main__author").css({
 });
 
 $(".main__title").css({
-    "color": "white"
+    "color": "red"
 });
 
 $(".main__subtitle").css({
@@ -190,4 +190,12 @@ $(".main__subtitle").css({
     "color": "#5A6482",
     "width": "441px",
     "margin-bottom": "40px"
+});
+
+$("#btn_orange").css({
+    "backgroundColor": "red",
+    "color": "#fff",
+    "border": "none",
+    "margin-left": "0",
+    "margin": "0 auto"
 });
