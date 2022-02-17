@@ -56,7 +56,14 @@ for (i = 0; i < 3; i++)
 //     'max-width', '1500px'
 // };
 
-
+var pageMain = $("<div class='page-main'></div>");
+var mainContainer = $("<div class='container'></div>");
+var main = $("<div class='main'></div>");
+var mainWrapper = $("<div class='main__wrapper'></div>");
+var mainAuthor = $("<div class='main__author'>MEET BILLY</div>");
+var mainTitle = $("<h1 class='main__title'>Welcome to the club buddy</h1>");
+var mainSubtitle = $("<p class='main__subtitle'>Some text</p>");
+var get300BucksBtn = $("<button name='getBucks' class='btn btn_orange'>Get $300&rarr;</button>");
 
 
 
@@ -64,6 +71,12 @@ header.append(headerLogo.append(headerLogoImage)).append(headerMenu).append(head
 
 headerPage.append((headerContainer.append(header)));
 $("body").append(headerPage);
+
+mainWrapper.append(mainAuthor).append(mainTitle).append(mainSubtitle).append(get300BucksBtn);
+main.append(mainWrapper);
+mainContainer.append(main);
+pageMain.append(mainContainer);
+$("body").append(pageMain);
 
 $(".container").css({
     "max-width": "1500px",
