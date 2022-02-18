@@ -163,10 +163,16 @@ $("#header_btn").css({
     "margin-left": "35px"
 });
 
-// $(".btn").hover($(".btn header-btns__price").css("backgroundColor", "grey"));
+$(".btn").mouseenter(function() {
+    $("#header_btn").css("backgroundColor", "grey");
+});
+
+$(".btn").mouseleave(function() {
+    $("#header_btn").css("backgroundColor", "#fff");
+});
 
 $(".page-main").css({
-    "background-image": "url('img/donate.png')",
+    "background-image": "url('img/donate.jpg')",
     "background-repeat": "no-repeat",
     "background-position-x": "right",
     "padding-left": "150px",
