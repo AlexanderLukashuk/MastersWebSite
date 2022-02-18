@@ -42,7 +42,7 @@ var headerButtons = $("<div class='header-btns'></div>");
 let buttons = [
     $("<button class='header-btns__login' onclick='window.location='logIn.html''>Log in</button>"),
     $("<button class='header-btns__login' onclick='window.location='register.html''>Register</button>"),
-    $("<button class='btn'>Get $300</button>")
+    $("<button class='btn' id='header_btn'>Get $300</button>")
 ];
 
 for (i = 0; i < 3; i++)
@@ -110,7 +110,8 @@ $(".header-menu").css({
     "list-style-type": "none",
     "display": "flex",
     "align-items": "center",
-    "flex-grow": "1"
+    "flex-grow": "1",
+    "margin": "10px"
 });
 
 $(".header-menu__list_link").css({
@@ -153,6 +154,13 @@ $(".btn").css({
     "border-radius": "4px",
     "margin-left": "39px",
     "cursor": "pointer"
+});
+
+$("#header_btn").css({
+    "height": "40px",
+    "margin": "5px 0 5px 5px",
+    "width": "120px",
+    "margin-left": "35px"
 });
 
 // $(".btn").hover($(".btn header-btns__price").css("backgroundColor", "grey"));
@@ -205,7 +213,7 @@ $("#btn_orange").css({
 
 $(".donate").css({
     "padding": "10px",
-    "margin": "10px 10px 10px 10px",
+    "margin": "10px 10px 0 0",
     "border": "0",
     "box-shadow": "0 0 15px 4px rgba(0,0,0,0)",
     "border-radius": "20px"
