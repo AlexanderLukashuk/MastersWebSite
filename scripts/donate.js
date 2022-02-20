@@ -32,8 +32,7 @@ let headerMenuList = [
 ];
 
 
-for (step = 0; step <= 5; step++)
-{
+for (step = 0; step <= 5; step++) {
     headerMenu.append(headerMenuList[step]);
 }
 
@@ -45,8 +44,7 @@ let buttons = [
     $("<button class='btn' id='header_btn'>Get $300</button>")
 ];
 
-for (i = 0; i < 3; i++)
-{
+for (i = 0; i < 3; i++) {
     headerButtons.append(buttons[i]);
 }
 
@@ -78,6 +76,22 @@ main.append(mainWrapper);
 mainContainer.append(main);
 pageMain.append(mainContainer);
 $("body").append(pageMain);
+
+// $(document).ready(function ($) {
+//     var cookieOptions = { expires: 3, path: '/' };
+//     if ($.cookie('visit') == undefined) {
+//         setTimeout(function () {
+//             $.cookie('visit', true, cookieOptions);
+//             $.magnificPopup.open({
+//                 items: {
+//                     src: $('#text-popup-load-window'), // может быть HTML строкой, jQuery объектом, или CSS селектором 
+//                 },
+//                 type: 'inline',
+//                 removalDelay: 300
+//             });
+//         }, 10000);
+//     }
+// });
 
 $(".container").css({
     "max-width": "1500px",
@@ -163,11 +177,11 @@ $("#header_btn").css({
     "margin-left": "35px"
 });
 
-$(".btn").mouseenter(function() {
+$(".btn").mouseenter(function () {
     $("#header_btn").css("backgroundColor", "grey");
 });
 
-$(".btn").mouseleave(function() {
+$(".btn").mouseleave(function () {
     $("#header_btn").css("backgroundColor", "#fff");
 });
 
