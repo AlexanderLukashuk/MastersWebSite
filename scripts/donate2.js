@@ -22,10 +22,10 @@
 
 $(window).on('resize', function () {
     var dropDown = $("<div class='dropdown'></div");
-    var dropDownBtn = $("<button class='btn btn-secondary dropdown-toggle' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Dropdown button</button>");
+    var dropDownBtn = $("<button class='btn btn-secondary dropdown-toggle' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Menu</button>");
     //var dropDownBtn = $("<button class='dropdownbtn' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Dropdown button</button>");
     //var dropdownContent = $("<div class='dropdown-content'>");
-     var dropDownMenu = $("<ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'></ul>");
+    var dropDownMenu = $("<ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'></ul>");
 
     let headerMenuList = [
         $("<li class='dropdown-menu__list'><a class='dropdown-item' href='index.html'>Dungeon</a></li>"),
@@ -65,6 +65,28 @@ $(window).on('resize', function () {
         headerButtons.remove();
         $(".header-menu").remove();
         header.append(headerMenu).append(headerButtons);
+    }
+
+    if ($(window).width() < 500) {
+        $(".main__subtitle").css({
+            "width": "200px"
+        });
+    }
+    else {
+        $(".main__subtitle").css({
+            "width": "250px"
+        });
+    }
+
+    if ($(window).width() < 500) {
+        $("#inputDonate").css({
+            "width": "200px"
+        });
+    }
+    else {
+        $("#inputDonate").css({
+            "width": "400px"
+        });
     }
 });
 

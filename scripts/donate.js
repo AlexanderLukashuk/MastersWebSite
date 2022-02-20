@@ -61,7 +61,7 @@ var mainWrapper = $("<div class='main__wrapper'></div>");
 var mainAuthor = $("<div class='main__author'>MEET BILLY</div>");
 var mainTitle = $("<h1 class='main__title'>Enter the donation amount</h1>");
 var mainSubtitle = $("<p class='main__subtitle'>All donations will be used to improve the site and the dungeon</p>");
-var inputDonate = $("<input class='donate' type='text' size='40' placeholder='Donate'>")
+var inputDonate = $("<input class='donate' type='text' placeholder='Donate' id='inputDonate'>");
 var get300BucksBtn = $("<button name='getBucks' id='btn_orange' class='btn'>Donate&rarr;</button>");
 
 
@@ -186,7 +186,7 @@ $(".btn").mouseleave(function () {
 });
 
 $(".page-main").css({
-    "background-image": "url('img/donate.jpg')",
+    "background-image": "url('img/donate.png')",
     "background-repeat": "no-repeat",
     "background-position-x": "right",
     "padding-left": "150px",
@@ -231,12 +231,13 @@ $("#btn_orange").css({
     "border-radius": "20px"
 });
 
-$(".donate").css({
+$("#inputDonate").css({
     "padding": "10px",
     "margin": "10px 10px 0 0",
     "border": "0",
     "box-shadow": "0 0 15px 4px rgba(0,0,0,0)",
-    "border-radius": "20px"
+    "border-radius": "20px",
+    "width": "400px"
 });
 
 // $("body").css({
