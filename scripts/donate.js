@@ -40,7 +40,7 @@ var headerButtons = $("<div class='header-btns'></div>");
 
 let buttons = [
     $("<button class='header-btns__login' onclick='window.location='logIn.html''>Log in</button>"),
-    $("<button class='header-btns__login' onclick='window.location='register.html''>Register</button>"),
+    $("<button class='header-btns__register' onclick='window.location='register.html''>Register</button>"),
     $("<button class='btn' id='header_btn'>Get $300</button>")
 ];
 
@@ -92,6 +92,14 @@ $("body").append(pageMain);
 //         }, 10000);
 //     }
 // });
+
+$(".header-btns__login").click(function() {
+    window.open("logIn.html", "_self");
+});
+
+$(".header-btns__register").click(function() {
+    window.open("register.html", "_self");
+});
 
 $(".container").css({
     "max-width": "1500px",
@@ -186,7 +194,7 @@ $(".btn").mouseleave(function () {
 });
 
 $(".page-main").css({
-    "background-image": "url('img/donate.png')",
+    "background-image": "url('img/donate.jpg')",
     "background-repeat": "no-repeat",
     "background-position-x": "right",
     "padding-left": "150px",
