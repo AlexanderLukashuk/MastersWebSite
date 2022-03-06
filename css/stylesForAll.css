@@ -165,17 +165,19 @@ body
     background-color: var(--space-color);
     margin-left: auto;
     margin-right: auto;
+    /* width: 255px; */
 }
 
 .btn-buy
 {
-    background-color: var(--space-color);
+    background-color: var(--accent-color);
     border: none;
     color: whitesmoke;
     margin-left: auto;
     margin-right: auto;
     height: 50px;
     width: 200px;
+    font-size: 16px;
 }
 
 .button
@@ -370,4 +372,21 @@ body
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
+}
+
+.card
+{
+    height: 700px;
+}
+
+.card-img-top
+{
+    height: 385px;
+}
+
+.team
+{
+    margin-left: 43.5%;
+    padding-top: 2%;
+    color: var(--accent-color);
 }
