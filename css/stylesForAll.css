@@ -1,0 +1,169 @@
+:root 
+{
+    --main-bg-color: brown;
+    --header-color: #fff;
+}
+
+body
+{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    /* color: $main-color; */
+}
+
+.container
+{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.container-cards
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px 100px 50px;
+}
+
+.container-products
+{
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-log
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header
+{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: var(--header-color);
+}
+
+.header__logo
+{
+    width: 75px;
+    height: 35px;
+    padding-left: 10px;
+    
+}
+
+.header__logo_image
+{
+    width: 75px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+.header-menu
+{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header-menu__link
+{
+    /* color: $text-color; */
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+}
+
+.header-menu__list
+{
+    padding-right: 35px;
+}
+
+.header-menu__link:hover
+{
+    color: purple;
+}
+
+.header-btns__login
+{
+    border: none;
+    background-color: var(--header-color);
+    cursor: pointer;
+    @media(max-width: 767px)
+    {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 0;
+    }
+}
+
+.header-btns__register
+{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    background-color: var(--header-color);
+    padding: 13px 31px 14px;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 39px;
+    margin-right: 39px;
+}
+
+.btn
+{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 13px 31px 14px;
+    border: 1px solid rgba(29, 37, 60, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 39px;
+    cursor: pointer;
+    &:hover
+    {
+        background-color: grey;
+    }
+    &:focus
+    {
+        //border: none;
+        outline: none;
+    }
+    &_orange
+    {
+        background-color: $accent-color;
+        color: #fff;
+        border: none;
+        margin-left: 0;
+    }
+    &-primary
+    {
+        background-color: $space-color;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    &-buy
+    {
+        background-color: $space-color;
+        border: none;
+        color: whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+        height: 50px;
+        width: 200px;
+    }
+}

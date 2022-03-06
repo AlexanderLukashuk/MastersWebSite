@@ -52,8 +52,8 @@ $(window).on('resize', function () {
     dropDown.append(dropDownBtn).append(dropDownMenu);
 
     if ($(window).width() < 1010) {
-        headerMenu.remove();
-        headerButtons.remove();
+        $(".header-menu").remove();
+        $(".header-btns").remove();
         $(".dropdown").remove();
         header.append(dropDown).append(headerButtons);
         // $(".page-main").css({
