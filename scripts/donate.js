@@ -24,11 +24,11 @@ var headerMenu = $("<ul class='header-menu'></ul>");
 // }
 
 let headerMenuList = [
-    $("<li class='header-menu__list'><a class='header-menu__list_link' href='index.html'>Dungeon</a></li>"),
-    $("<li class='header-menu__list'><a class='header-menu__list_link' href='https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D1%80%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD,_%D0%91%D0%B8%D0%BB%D0%BB%D0%B8'>The Best Master</a></li>"),
-    $("<li class='header-menu__list'><a class='header-menu__list_link' href='#'>Why Billy</a></li>"),
-    $("<li class='header-menu__list'><a class='header-menu__list_link' href='help.html'>Help</a></li>"),
-    $("<li class='header-menu__list'><a class='header-menu__list_link' href='donate.html'>Donate</a></li>")
+    $("<li class='header-menu__list'><a class='header-menu__link' href='index.html'>Dungeon</a></li>"),
+    $("<li class='header-menu__list'><a class='header-menu__link' href='https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D1%80%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD,_%D0%91%D0%B8%D0%BB%D0%BB%D0%B8'>The Best Master</a></li>"),
+    $("<li class='header-menu__list'><a class='header-menu__link' href='#'>Why Billy</a></li>"),
+    $("<li class='header-menu__list'><a class='header-menu__link' href='help.html'>Help</a></li>"),
+    $("<li class='header-menu__list'><a class='header-menu__link' href='donate.html'>Donate</a></li>")
 ];
 
 
@@ -101,152 +101,152 @@ $(".header-btns__register").click(function() {
     window.open("register.html", "_self");
 });
 
-$(".container").css({
-    "max-width": "1500px",
-    "margin": "0 auto"
-});
+// $(".container").css({
+//     "max-width": "1500px",
+//     "margin": "0 auto"
+// });
 
-$(".header").css({
-    "display": "flex",
-    "height": "100%",
-    "justify-content": "space-between",
-    "align-items": "center",
-    "font-size": "16px",
-    "line-height": "19px",
-    "backgroundColor": "white"
-});
+// $(".header").css({
+//     "display": "flex",
+//     "height": "100%",
+//     "justify-content": "space-between",
+//     "align-items": "center",
+//     "font-size": "16px",
+//     "line-height": "19px",
+//     "backgroundColor": "white"
+// });
 
-$(".header__logo").css({
-    "width": "75px",
-    "height": "35px",
-    "padding-left": "10px"
-});
+// $(".header__logo").css({
+//     "width": "75px",
+//     "height": "35px",
+//     "padding-left": "10px"
+// });
 
-$(".header__logo_image").css({
-    "width": "75px",
-    "height": "35px",
-    "padding-left": "10px"
-});
+// $(".header__logo_image").css({
+//     "width": "75px",
+//     "height": "35px",
+//     "padding-left": "10px"
+// });
 
-$(".header-menu").css({
-    "list-style-type": "none",
-    "display": "flex",
-    "align-items": "center",
-    "flex-grow": "1",
-    "margin": "10px"
-});
+// $(".header-menu").css({
+//     "list-style-type": "none",
+//     "display": "flex",
+//     "align-items": "center",
+//     "flex-grow": "1",
+//     "margin": "10px"
+// });
 
-$(".header-menu__list_link").css({
-    "color": "#0f0b0b",
-    "text-decoration": "underline",
-    "font-size": "large",
-    "font-weight": "bold"
-});
+// $(".header-menu__list_link").css({
+//     "color": "#0f0b0b",
+//     "text-decoration": "underline",
+//     "font-size": "large",
+//     "font-weight": "bold"
+// });
 
-$(".header-menu__list").css({
-    "padding-right": "35px"
-});
+// $(".header-menu__list").css({
+//     "padding-right": "35px"
+// });
 
 // $( document ).ready(function(){
 //     $(".header-menu__list").hover(function() {
 //     $(".header-menu__list").css("color", "purple");});
 // });
 
-$(".header-btns__login").css({
-    "border": "none",
-    "backgroundColor": "white",
-    "cursor": "pointer",
-});
+// $(".header-btns__login").css({
+//     "border": "none",
+//     "backgroundColor": "white",
+//     "cursor": "pointer",
+// });
 
-$(".header-btns__register").css({
-    "border": "none",
-    "backgroundColor": "white",
-    "cursor": "pointer",
-});
+// $(".header-btns__register").css({
+//     "border": "none",
+//     "backgroundColor": "white",
+//     "cursor": "pointer",
+// });
 
-$(".btn").css({
-    "font-weight": "600",
-    "font-size": "14px",
-    "line-height": "17px",
-    "text-transform": "uppercase",
-    "backgroundColor": "#fff",
-    "padding": "13px, 31px, 14px",
-    "border": "1px solid rgba(29, 37, 60, 0.2)",
-    "box-sizing": "border-box",
-    "border-radius": "4px",
-    "margin-left": "39px",
-    "cursor": "pointer"
-});
+// $(".btn").css({
+//     "font-weight": "600",
+//     "font-size": "14px",
+//     "line-height": "17px",
+//     "text-transform": "uppercase",
+//     "backgroundColor": "#fff",
+//     "padding": "13px, 31px, 14px",
+//     "border": "1px solid rgba(29, 37, 60, 0.2)",
+//     "box-sizing": "border-box",
+//     "border-radius": "4px",
+//     "margin-left": "39px",
+//     "cursor": "pointer"
+// });
 
-$("#header_btn").css({
-    "height": "40px",
-    "margin": "5px 0 5px 5px",
-    "width": "120px",
-    "margin-left": "35px"
-});
+// $("#header_btn").css({
+//     "height": "40px",
+//     "margin": "5px 0 5px 5px",
+//     "width": "120px",
+//     "margin-left": "35px"
+// });
 
-$(".btn").mouseenter(function () {
-    $("#header_btn").css("backgroundColor", "grey");
-});
+// $(".btn").mouseenter(function () {
+//     $("#header_btn").css("backgroundColor", "grey");
+// });
 
-$(".btn").mouseleave(function () {
-    $("#header_btn").css("backgroundColor", "#fff");
-});
+// $(".btn").mouseleave(function () {
+//     $("#header_btn").css("backgroundColor", "#fff");
+// });
 
-$(".page-main").css({
-    "background-image": "url('img/donate.jpg')",
-    "background-repeat": "no-repeat",
-    "background-position-x": "right",
-    "padding-left": "150px",
-    "background-size": "736px 800px",
-    "backgroundColor": "#101419"
-});
+// $(".page-main").css({
+//     "background-image": "url('img/donate.jpg')",
+//     "background-repeat": "no-repeat",
+//     "background-position-x": "right",
+//     "padding-left": "150px",
+//     "background-size": "736px 800px",
+//     "backgroundColor": "#101419"
+// });
 
-$(".main").css({
-    "height": "775px",
-    "padding-top": "223px",
-    "box-sizing": "border-box"
-});
+// $(".main").css({
+//     "height": "775px",
+//     "padding-top": "223px",
+//     "box-sizing": "border-box"
+// });
 
-$(".main__author").css({
-    "font-weight": "600",
-    "font-size": "18px",
-    "line-height": "27px",
-    "text-transfom": "uppercase",
-    "color": "red"
-});
+// $(".main__author").css({
+//     "font-weight": "600",
+//     "font-size": "18px",
+//     "line-height": "27px",
+//     "text-transfom": "uppercase",
+//     "color": "red"
+// });
 
-$(".main__title").css({
-    "color": "red"
-});
+// $(".main__title").css({
+//     "color": "red"
+// });
 
-$(".main__subtitle").css({
-    "font-weight": "500",
-    "font-size": "22px",
-    "line-height": "33px",
-    "color": "#5A6482",
-    "width": "441px",
-    "margin-bottom": "40px"
-});
+// $(".main__subtitle").css({
+//     "font-weight": "500",
+//     "font-size": "22px",
+//     "line-height": "33px",
+//     "color": "#5A6482",
+//     "width": "441px",
+//     "margin-bottom": "40px"
+// });
 
-$("#btn_orange").css({
-    "backgroundColor": "red",
-    "color": "#fff",
-    "border": "none",
-    "margin-left": "0",
-    "margin": "0 auto",
-    "height": "45px",
-    "border-radius": "20px"
-});
+// $("#btn_orange").css({
+//     "backgroundColor": "red",
+//     "color": "#fff",
+//     "border": "none",
+//     "margin-left": "0",
+//     "margin": "0 auto",
+//     "height": "45px",
+//     "border-radius": "20px"
+// });
 
-$("#inputDonate").css({
-    "padding": "10px",
-    "margin": "10px 10px 0 0",
-    "border": "0",
-    "box-shadow": "0 0 15px 4px rgba(0,0,0,0)",
-    "border-radius": "20px",
-    "width": "400px"
-});
+// $("#inputDonate").css({
+//     "padding": "10px",
+//     "margin": "10px 10px 0 0",
+//     "border": "0",
+//     "box-shadow": "0 0 15px 4px rgba(0,0,0,0)",
+//     "border-radius": "20px",
+//     "width": "400px"
+// });
 
 // $("body").css({
 //     "font-family": "'Work Sans', sans-serif",

@@ -75,6 +75,7 @@ body
     display: flex;
     align-items: center;
     flex-grow: 1;
+    padding-top: 10px;
 }
 
 .header-menu__link
@@ -103,6 +104,7 @@ body
     border: none;
     background-color: var(--header-color);
     cursor: pointer;
+    padding-right: 25px;
     @media(max-width: 767px)
     {
         display: block;
