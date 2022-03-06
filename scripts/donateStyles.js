@@ -40,11 +40,10 @@ $(".header-menu").css({
     "display": "flex",
     "align-items": "center",
     "flex-grow": "1",
-    "margin": "10px",
     "padding-top": "10px"
 });
 
-$(".header-menu_link").css({
+$(".header-menu__link").css({
     "color": spaceColor,
     "text-decoration": "underline",
     "font-size": "large",
@@ -57,10 +56,52 @@ $(".header-menu__list").css({
     "padding-bottom": "5px"
 });
 
+$("#header__link1").mouseenter(function () {
+    $("#header__link1").css("color", "purple");
+});
+
+$("#header__link1").mouseleave(function () {
+    $("#header__link1").css("color", spaceColor);
+});
+
+$("#header__link2").mouseenter(function () {
+    $("#header__link2").css("color", "purple");
+});
+
+$("#header__link2").mouseleave(function () {
+    $("#header__link2").css("color", spaceColor);
+});
+
+$("#header__link3").mouseenter(function () {
+    $("#header__link3").css("color", "purple");
+});
+
+$("#header__link3").mouseleave(function () {
+    $("#header__link3").css("color", spaceColor);
+});
+
+$("#header__link4").mouseenter(function () {
+    $("#header__link4").css("color", "purple");
+});
+
+$("#header__link4").mouseleave(function () {
+    $("#header__link4").css("color", spaceColor);
+});
+
+$("#header__link5").mouseenter(function () {
+    $("#header__link5").css("color", "purple");
+});
+
+$("#header__link5").mouseleave(function () {
+    $("#header__link5").css("color", spaceColor);
+});
+
+
 $(".header-btns__login").css({
     "border": "none",
-    "backgroundColor": "white",
+    "backgroundColor": headerColor,
     "cursor": "pointer",
+    "padding-right": "25px"
 });
 
 $(".header-btns__register").css({
@@ -74,7 +115,7 @@ $(".btn").css({
     "font-size": "14px",
     "line-height": "17px",
     "text-transform": "uppercase",
-    "backgroundColor": "#fff",
+    "backgroundColor": accentColor,
     "padding": "13px, 31px, 14px",
     "border": "1px solid rgba(29, 37, 60, 0.2)",
     "box-sizing": "border-box",
@@ -96,7 +137,7 @@ $(".page-main").css({
     "background-position-x": "right",
     "padding-left": "150px",
     "background-size": "736px 800px",
-    "backgroundColor": "#101419"
+    "backgroundColor": spaceColor
 });
 
 $(".main").css({
@@ -110,11 +151,17 @@ $(".main__author").css({
     "font-size": "18px",
     "line-height": "27px",
     "text-transfom": "uppercase",
-    "color": "red"
+    "color": accentColor
 });
 
 $(".main__title").css({
-    "color": "red"
+    "color": "#fff",
+    "width": "484px",
+    "left": "179px",
+    "top": "305px",
+    "font-size": "48px",
+    "line-height": "53px",
+    "letter-spacing": "-0.035em"
 });
 
 $(".main__subtitle").css({
@@ -127,7 +174,7 @@ $(".main__subtitle").css({
 });
 
 $("#btn_orange").css({
-    "backgroundColor": "red",
+    "backgroundColor": accentColor,
     "color": "#fff",
     "border": "none",
     "margin-left": "0",
