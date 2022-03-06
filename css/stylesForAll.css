@@ -318,11 +318,11 @@ body
 .subtitle
 {
     font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 18px;
+    line-height: 20px;
     text-transform: uppercase;
     color: var(--accent-color);
-    margin-bottom: 28px;
+    margin-bottom: 10px;
 }
 
 .title
@@ -345,6 +345,7 @@ body
     font-size: 19px;
     line-height: 30px;
     color: #5A6482;
+    padding-bottom: 25px;
 }
 
 .card-title
@@ -362,4 +363,11 @@ body
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.radio_buttons
+{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
 }
