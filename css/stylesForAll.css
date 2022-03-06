@@ -2,6 +2,9 @@
 {
     --main-bg-color: brown;
     --header-color: #fff;
+    --space-color: #101419;
+    --accent-color: #F9B640;
+    --text-color: #0f0b0b;
 }
 
 body
@@ -80,11 +83,14 @@ body
     text-decoration: underline;
     font-size: large;
     font-weight: bold;
+    color: var(--space-color);
 }
 
 .header-menu__list
 {
     padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .header-menu__link:hover
@@ -133,37 +139,218 @@ body
     border-radius: 4px;
     margin-left: 39px;
     cursor: pointer;
-    &:hover
+}
+
+.btn:hover
+{
+    background-color: grey;
+}
+
+.btn:focus
+{
+    /* border: none; */
+    outline: none;
+}
+
+.btn_orange
+{
+    background-color: var(--accent-color);
+    color: #fff;
+    border: none;
+    margin-left: 0;
+}
+
+.btn-primary
+{
+    background-color: var(--space-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-buy
+{
+    background-color: var(--space-color);
+    border: none;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 200px;
+}
+
+.button
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #126F86;
+    border: none;
+    background-color: inherit;
+    position: relative;
+    padding-left: 0;
+}
+
+.button:focus
+{
+    outline: none;
+}
+
+.main
+{
+    /*display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+    height: 775px;
+    padding-top: 223px;
+    box-sizing: border-box;
+    /* .btn
     {
-        background-color: grey;
-    }
-    &:focus
+        margin: 0 auto;
+    } */
+}
+
+.main__author
+{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: var(--accent-color);
+}
+
+.main__title
+{
+    color: #ffff;
+}
+
+.main__subtitle
+{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #5A6482;
+    width: 411px;
+    margin-bottom: 40px;
+}
+
+.page-main
+{
+    background-image: url(../img/main_image.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding-left: 150px;
+    background-size: 736px 800px;
+    background-color: var(--space-color);
+}
+
+.page-help
+{
+    background-image: url(../img/help_page.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding-left: 150px;
+    background-size: 736px 800px;
+    background-color: var(--space-color);
+}
+
+.page-radio
+{
+    background-color: #F9F5F2;
+    padding-top: 85px;
+    padding-bottom: 124px;
+}
+
+.page-actors
+{
+    background-color: var(--space-color);
+}
+
+.page-logIn
+{
+    background-color: var(--space-color);
+}
+
+.flex
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-reverse
+{
+    flex-direction: row-reverse;
+}
+
+.cover_img__radio
+{
+    width: 414px;
+    height: 373px;
+    padding: 31px 43px;
+    background-color: #fff;
+}
+
+.cover__wrapper
+{
+    width: 35%;
+}
+
+.title
+{
+    margin-bottom: 19px;
+    margin-top: 0;
+}
+
+.button
+{
+    margin-top: 32px;
+}
+
+.subtitle
+{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    margin-bottom: 28px;
+}
+
+.title
+{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 52px;
+    color: var(--text-color);
+    /* &_medium
     {
-        //border: none;
-        outline: none;
-    }
-    &_orange
-    {
-        background-color: $accent-color;
-        color: #fff;
-        border: none;
-        margin-left: 0;
-    }
-    &-primary
-    {
-        background-color: $space-color;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    &-buy
-    {
-        background-color: $space-color;
-        border: none;
-        color: whitesmoke;
-        margin-left: auto;
-        margin-right: auto;
-        height: 50px;
-        width: 200px;
-    }
+        font-weight: 500;
+        font-size: 45px;
+        margin-bottom: 35px;
+    } */
+}
+
+.descr
+{
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    color: #5A6482;
+}
+
+.card-title
+{
+    color: var(--text-color);
+}
+
+.card-text
+{
+    color: var(--text-color);
+}
+
+.team
+{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
