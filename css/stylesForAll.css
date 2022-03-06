@@ -221,6 +221,15 @@ body
 .main__title
 {
     color: #ffff;
+    width: 484px;
+    /* height: 167px; */
+    left: 179px;
+    top: 305px;
+
+    font-family: Larsseit;
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
 }
 
 .main__subtitle
