@@ -132,7 +132,7 @@ body
     font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
-    background-color: #fff;
+    background-color: var(--accent-color);
     padding: 13px 31px 14px;
     border: 1px solid rgba(29, 37, 60, 0.2);
     box-sizing: border-box;
@@ -228,7 +228,7 @@ body
     left: 179px;
     top: 305px;
 
-    font-family: Larsseit;
+    /* font-family: Larsseit; */
     font-size: 48px;
     line-height: 53px;
     letter-spacing: -0.035em;

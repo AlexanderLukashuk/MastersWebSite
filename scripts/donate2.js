@@ -22,7 +22,7 @@
 
 $(window).on('resize', function () {
     var dropDown = $("<div class='dropdown'></div");
-    var dropDownBtn = $("<button class='btn btn-secondary dropdown-toggle' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Menu</button>");
+    var dropDownBtn = $("<button class='btn btn-dropDownBtn' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Menu</button>");
     //var dropDownBtn = $("<button class='dropdownbtn' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Dropdown button</button>");
     //var dropdownContent = $("<div class='dropdown-content'>");
     var dropDownMenu = $("<ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'></ul>");
@@ -37,6 +37,31 @@ $(window).on('resize', function () {
 
     for (step = 0; step < 5; step++) {
         dropDownMenu.append(headerMenuList[step]);
+    }
+
+    var headerBtns = $("<div class='header-btns'></div>");
+
+    let btns = [
+        $("<button class='header-btns__login' onclick='window.location='logIn.html''>Log in</button>"),
+        $("<button class='header-btns__login' onclick='window.location='register.html''>Register</button>")
+    ];
+
+    for (i = 0; i < 3; i++) {
+        headerBtns.append(btns[i]);
+    }
+
+    var headerMenuBack = $("<ul class='header-menu'></ul>");
+
+    let headerMenuListBack = [
+        $("<li class='header-menu__list'><a href='index.html' class='header-menu__link'>Dungeon</a></li>"),
+        $("<li class='header-menu__list'><a href='https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D1%80%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD,_%D0%91%D0%B8%D0%BB%D0%BB%D0%B8' class='header-menu__link'>The Best Master</a></li>"),
+        $("<li class='header-menu__list'><a href='#' class='header-menu__link'>Why Billy</a></li>"),
+        $("<li class='header-menu__list'><a href='help.html' class='header-menu__link'>Help</a></li>"),
+        $("<li class='header-menu__list'><a href='donatePage.html' class='header-menu__link'>Donate</a></li>")
+    ];
+
+    for (step = 0; step <= 5; step++) {
+        headerMenuBack.append(headerMenuListBack[step]);
     }
 
     // let arr = [
@@ -55,16 +80,16 @@ $(window).on('resize', function () {
         $(".header-menu").remove();
         $(".header-btns").remove();
         $(".dropdown").remove();
-        header.append(dropDown).append(headerButtons);
+        $(".header").append(dropDown).append(headerBtns);
         // $(".page-main").css({
         //     "backgroundColor": "red"
         // });
     }
     else {
         $(".dropdown").remove();
-        headerButtons.remove();
+        $(".header-btns").remove();
         $(".header-menu").remove();
-        header.append(headerMenu).append(headerButtons);
+        $(".header").append(headerMenuBack).append(headerBtns);
     }
 
     if ($(window).width() < 500) {
@@ -90,22 +115,25 @@ $(window).on('resize', function () {
     }
 });
 
-$(".dropdownbtn").css({
-    "color": "white",
+$(".btn-dropDownBtn").css({
+    "color": "#fff",
     "padding": "16px",
     "font-size": "16px",
-    "border": "none"
+    "border": "none",
+    "background-color": "#F9B640"
 });
 
 $(".dropdown").css({
     "position": "relative",
-    "display": "inline-block"
+    "display": "inline-block",
+    "padding-top": "2%",
+    "padding-bottom": "2%"
 });
 
 $(".dropdown-menu").css({
     "isplay": "none",
     "position": "absolute",
-    "backgroundColor": "#f1f1f1",
+    "backgroundColor": "#F9B640",
     "min-width": "160px",
     "box-shadow": "0px 8px 16px 0px rgba(0,0,0,0.2)",
     "z-index": "1"
@@ -123,5 +151,5 @@ $(".dropdown").mouseenter(function () {
 });
 
 $(".btn").mouseleave(function () {
-    $("#header_btn").css("backgroundColor", "#fff");
+    $("#header_btn").css("backgroundColor", "#F9B640");
 });
