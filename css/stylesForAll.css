@@ -95,7 +95,14 @@ body
 
 .header-menu__link:hover
 {
-    color: purple;
+    /* color: var(--accent-color); */
+    color: var(--accent-color);
+}
+
+.header-btns__login:hover
+{
+    /* color: var(--accent-color); */
+    color: var(--accent-color);
 }
 
 .header-btns__login
