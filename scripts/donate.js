@@ -40,8 +40,7 @@ var headerButtons = $("<div class='header-btns'></div>");
 
 let buttons = [
     $("<button class='header-btns__login' onclick='window.location='logIn.html''>Log in</button>"),
-    $("<button class='header-btns__login' onclick='window.location='register.html''>Register</button>"),
-    $("<button class='btn' id='header_btn'>Get $300</button>")
+    $("<button class='header-btns__login' onclick='window.location='register.html''>Register</button>")
 ];
 
 for (i = 0; i < 3; i++) {
