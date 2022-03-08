@@ -39,7 +39,7 @@ for (step = 0; step <= 5; step++) {
 var headerButtons = $("<div class='header-btns'></div>");
 
 let buttons = [
-    $("<button class='header-btns__login' onclick='window.location='logIn.html''>Log in</button>"),
+    $("<button class='header-btns__login' onclick='window.location=\'logIn.html\''>Log in</button>"),
     $("<button class='header-btns__login' onclick='window.location='register.html''>Register</button>")
 ];
 

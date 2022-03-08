@@ -38,7 +38,7 @@ $(window).ready(function () {
     // canvas.style.background = '#F9F5F2';        //цвет canvas
     // canvas.style.background = none;        //цвет canvas
     // document.querySelector(".pulse").appendChild(canvas);     //добавляем canvas в body
-    $(".pulse").append(canvas);     //добавляем canvas в body
+    //$(".pulse").append(canvas);     //добавляем canvas в body
 
     window.onresize = function() {                          //обновляем размеры Canvas если меняется размер окна
         w = canvas.width = innerWidth;

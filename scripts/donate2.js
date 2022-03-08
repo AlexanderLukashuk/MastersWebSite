@@ -42,8 +42,8 @@ $(window).on('resize', function () {
     var headerBtns = $("<div class='header-btns'></div>");
 
     let btns = [
-        $("<button class='header-btns__login' onclick='window.location='logIn.html''>Log in</button>"),
-        $("<button class='header-btns__login' onclick='window.location='register.html''>Register</button>")
+        $("<button class='header-btns__login' id='log' onclick='window.location=\"logIn.html\"'>Log in</button>"),
+        $("<button class='header-btns__login' id='reg' onclick='window.location=\"register.html\"'>Register</button>")
     ];
 
     for (i = 0; i < 3; i++) {
@@ -136,9 +136,14 @@ $(window).ready(function () {
 
     var headerBtns = $("<div class='header-btns'></div>");
 
+    // let btns = [
+    //     $("<button class='header-btns__login' id='log' onclick='window.location='logIn.html''>Log in</button>"),
+    //     $("<button class='header-btns__login' id='reg' onclick='window.location='register.html''>Register</button>")
+    // ];
+
     let btns = [
-        $("<button class='header-btns__login' onclick='window.location='logIn.html''>Log in</button>"),
-        $("<button class='header-btns__login' onclick='window.location='register.html''>Register</button>")
+        $("<button class='header-btns__login' id='log' onclick='window.location=\"logIn.html\"'>Log in</button>"),
+        $("<button class='header-btns__login' id='reg' onclick='window.location=\"register.html\"'>Register</button>")
     ];
 
     for (i = 0; i < 3; i++) {
