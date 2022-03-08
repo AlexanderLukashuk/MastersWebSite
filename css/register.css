@@ -1,7 +1,7 @@
 .page-register
 {
-    background-image: url(../img/main_image.png);
-    background-position-x: right;
+    background-image: url(../img/actors_background.jpg);
+    /* background-position-x: right; */
     background-size: 736px 800px;
 }
 
@@ -21,6 +21,7 @@
     align-items: center;
     flex-flow: column wrap;
     padding: 50px 50px 100px 50px;
+    /* height: 530px; */
 }
 
 .inputer
@@ -69,4 +70,10 @@
 {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.card
+{
+    height: 530px;
+    padding-top: 50px;
 }

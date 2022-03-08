@@ -8,8 +8,8 @@
 
 .page-logIn
 {
-    background-image: url(../img/main_image.png);
-    background-position-x: right;
+    background-image: url(../img/actors_background.jpg);
+    /* background-position-x: right; */
     background-size: 736px 800px;
 }
 
@@ -77,4 +77,10 @@
 {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.card
+{
+    height: 450px;
+    padding-top: 50px;
 }
