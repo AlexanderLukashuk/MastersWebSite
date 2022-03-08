@@ -132,9 +132,11 @@ $("#header_btn").css({
 });
 
 $(".page-main").css({
-    "background-image": "url('img/donate.jpg')",
-    "background-repeat": "no-repeat",
-    "background-position-x": "right",
+    // "background-image": "url('img/donate.jpg', 'img/money.gif')",
+    // "background-image": "url('img/download.gif')",
+    "background": "url('img/money.gif') right no-repeat, url('img/donate.jpg') right no-repeat",
+    // "background-repeat": "no-repeat",
+    // "background-position-x": "right",
     "padding-left": "150px",
     "background-size": "736px 800px",
     "backgroundColor": spaceColor
