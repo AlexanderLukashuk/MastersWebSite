@@ -281,7 +281,9 @@ body
 
 .page-actors
 {
-    background-color: var(--space-color);
+    /* background-color: var(--space-color); */
+    background-image: url(../img/actors_background.jpg);
+    background-repeat: no-repeat;
 }
 
 .page-logIn
