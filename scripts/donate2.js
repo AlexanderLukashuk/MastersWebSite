@@ -115,7 +115,7 @@ $(window).on('resize', function () {
     }
 });
 
-$(window).ready('resize', function () {
+$(window).ready(function () {
     var dropDown = $("<div class='dropdown'></div");
     var dropDownBtn = $("<button class='btn btn-dropDownBtn' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Menu</button>");
     //var dropDownBtn = $("<button class='dropdownbtn' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>Dropdown button</button>");
