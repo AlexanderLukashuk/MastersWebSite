@@ -17,7 +17,8 @@
 
 .pulse
 {
-    background: #5CC2E2;
+    /* background: #5CC2E2; */
+    background: #F9F5F2;
     position: relative;
     transition: .5s;
 }
@@ -27,8 +28,8 @@
     font-size: 50px;
     line-height: 94px;
     animation: phone .9s ease-in-out infinite;
-    padding-left: 30px;
-    padding-top: 30px;
+    /* padding-left: 30px;
+    padding-top: 30px; */
 }
 
 /* .phone i
@@ -49,12 +50,12 @@
     opacity: 1;
 } */
 
-.pulse:hover::before,
-.pulse:hover::after
+.pulse::before,
+.pulse::after
 {
     content: '';
     position: absolute;
-    border: 1px solid #29AEE3;
+    border: 1px solid #F9B640;
     left: -20px;
     right: -20px;
     top: -20px;
@@ -64,7 +65,7 @@
     opacity: 0;
 }
 
-.pulse:hover::after
+.pulse::after
 {
     animation-delay: .5s;
     /* animation-delay: move .5s infinite linear; */

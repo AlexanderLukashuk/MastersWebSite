@@ -29,10 +29,14 @@ $(window).ready(function () {
     // let h = canvas.height = innerHeight;                    //высота равна высоте области просмотра
     let h = canvas.height = $(".pulse").height() * 1.2;                    //высота равна высоте области просмотра
 
+    // canvas.style.paddingRight = "30px";
+    // canvas.style.paddingBottom = "30px";
+
     let dotsList;                                           //переменная для хранения списка точек
 
     // canvas.style.background = 'rgba(17, 17, 23 ,1)';        //цвет canvas
-    canvas.style.background = '#F9F5F2';        //цвет canvas
+    // canvas.style.background = '#F9F5F2';        //цвет canvas
+    // canvas.style.background = none;        //цвет canvas
     // document.querySelector(".pulse").appendChild(canvas);     //добавляем canvas в body
     $(".pulse").append(canvas);     //добавляем canvas в body
 
