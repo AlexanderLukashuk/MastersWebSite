@@ -387,6 +387,7 @@ body
 .card
 {
     height: 700px;
+    width: 18rem;
 }
 
 .card-img-top

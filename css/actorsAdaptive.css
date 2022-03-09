@@ -1,0 +1,17 @@
+@media (max-width : 1010px)
+{
+    .container-cards
+    {
+        flex-flow: column wrap;
+    }
+
+    .card
+    {
+        width: 25em;
+    }
+
+    .page-actors
+    {
+        background-size: auto 2400px;
+    }
+}

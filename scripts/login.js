@@ -10,8 +10,14 @@ $("#loginBtn").click(function(){
     }
 });
 
-// $(document).ready(function () {
-//     $(".load2").click(function () {
-//         alert('jQuery подключен и отлично работает!');
-//     });
-// });
+$('body').on('click', '.kodnaya-prokhod', function() {
+    if ($('#password').attr('type') == 'password') {
+        $(this).addClass('view');
+        $('#password').attr('type', 'text');
+    }
+    else {
+        $(this).removeClass('view');
+        $('#password').attr('type', 'password');
+    }
+    return false;
+});
