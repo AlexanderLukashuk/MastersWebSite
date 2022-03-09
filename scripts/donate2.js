@@ -55,7 +55,6 @@ $(window).on('resize', function () {
     let headerMenuListBack = [
         $("<li class='header-menu__list'><a href='index.html' class='header-menu__link'>Dungeon</a></li>"),
         $("<li class='header-menu__list'><a href='https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D1%80%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD,_%D0%91%D0%B8%D0%BB%D0%BB%D0%B8' class='header-menu__link'>The Best Master</a></li>"),
-        $("<li class='header-menu__list'><a href='#' class='header-menu__link'>Why Billy</a></li>"),
         $("<li class='header-menu__list'><a href='help.html' class='header-menu__link'>Help</a></li>"),
         $("<li class='header-menu__list'><a href='donatePage.html' class='header-menu__link'>Donate</a></li>")
     ];
@@ -125,7 +124,6 @@ $(window).ready(function () {
     let headerMenuList = [
         $("<li class='dropdown-menu__list'><a class='dropdown-item' href='index.html'>Dungeon</a></li>"),
         $("<li class='dropdown-menu__list'><a class='dropdown-item' href='https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D1%80%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD,_%D0%91%D0%B8%D0%BB%D0%BB%D0%B8'>The Best Master</a></li>"),
-        $("<li class='dropdown-menu__list'><a class='dropdown-item' href='#'>Why Billy</a></li>"),
         $("<li class='dropdown-menu__list'><a class='dropdown-item' href='help.html'>Help</a></li>"),
         $("<li class='dropdown-menu__list'><a class='dropdown-item' href='donate.html'>Donate</a></li>")
     ];
@@ -155,7 +153,6 @@ $(window).ready(function () {
     let headerMenuListBack = [
         $("<li class='header-menu__list'><a href='index.html' class='header-menu__link'>Dungeon</a></li>"),
         $("<li class='header-menu__list'><a href='https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D1%80%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD,_%D0%91%D0%B8%D0%BB%D0%BB%D0%B8' class='header-menu__link'>The Best Master</a></li>"),
-        $("<li class='header-menu__list'><a href='#' class='header-menu__link'>Why Billy</a></li>"),
         $("<li class='header-menu__list'><a href='help.html' class='header-menu__link'>Help</a></li>"),
         $("<li class='header-menu__list'><a href='donatePage.html' class='header-menu__link'>Donate</a></li>")
     ];

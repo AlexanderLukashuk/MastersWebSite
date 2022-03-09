@@ -26,7 +26,6 @@ var headerMenu = $("<ul class='header-menu'></ul>");
 let headerMenuList = [
     $("<li class='header-menu__list'><a class='header-menu__link' id='header__link1' href='index.html'>Dungeon</a></li>"),
     $("<li class='header-menu__list'><a class='header-menu__link' id='header__link2' href='https://ru.wikipedia.org/wiki/%D0%A5%D0%B5%D1%80%D1%80%D0%B8%D0%BD%D0%B3%D1%82%D0%BE%D0%BD,_%D0%91%D0%B8%D0%BB%D0%BB%D0%B8'>The Best Master</a></li>"),
-    $("<li class='header-menu__list'><a class='header-menu__link' id='header__link3' href='#'>Why Billy</a></li>"),
     $("<li class='header-menu__list'><a class='header-menu__link' id='header__link4' href='help.html'>Help</a></li>"),
     $("<li class='header-menu__list'><a class='header-menu__link' id='header__link5' href='donate.html'>Donate</a></li>")
 ];
