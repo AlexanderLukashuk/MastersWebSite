@@ -78,3 +78,31 @@
     padding-top: 50px;
     width: 40rem;
 }
+
+
+.kodnaya-prokhod 
+{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(http://zornet.ru/ZORNET-RU/ZR/Alinuversa/amipsakilad/pekugedsan.svg) 0 0 no-repeat;
+}
+
+.kodnaya-prokhod-repeat
+{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(http://zornet.ru/ZORNET-RU/ZR/Alinuversa/amipsakilad/pekugedsan.svg) 0 0 no-repeat;
+}
+
+.password-control.view
+{
+    background: url(http://zornet.ru/ZORNET-RU/ZR/Alinuversa/amipsakilad/dsamudulas.svg) 0 0 no-repeat;
+}

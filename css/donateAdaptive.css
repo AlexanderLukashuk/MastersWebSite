@@ -1,0 +1,23 @@
+@media (max-width : 650px)
+{
+    .main__title
+    {
+        width: 300px;
+    }
+}
+
+@media (max-width : 1070px)
+{
+    .page-donate
+    {
+        background-image: none;
+    }
+}
+
+@media (max-width : 1350px)
+{
+}
+
+@media (max-width : 1174px)
+{
+}
