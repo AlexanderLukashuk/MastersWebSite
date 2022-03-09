@@ -17,6 +17,11 @@
     {
         background-image: none;
     }
+
+    .page-donate
+    {
+        background-image: none;
+    }
 }
 
 @media (max-width : 1350px)

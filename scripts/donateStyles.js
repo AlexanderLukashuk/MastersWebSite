@@ -131,7 +131,7 @@ $("#header_btn").css({
     "margin-left": "35px"
 });
 
-$(".page-main").css({
+$(".page-donate").css({
     // "background-image": "url('img/donate.jpg', 'img/money.gif')",
     // "background-image": "url('img/download.gif')",
     "background": "url('img/money.gif') right no-repeat, url('img/donate.jpg') right no-repeat",

@@ -181,9 +181,9 @@ $(window).ready(function () {
         $(".header-btns").remove();
         $(".dropdown").remove();
         $(".header").append(dropDown).append(headerBtns);
-        // $(".page-main").css({
-        //     "backgroundColor": "red"
-        // });
+        $(".page-donate").css({
+            "background-image": "none"
+        });
     }
     else {
         $(".dropdown").remove();

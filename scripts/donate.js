@@ -53,7 +53,7 @@ for (i = 0; i < 3; i++) {
 //     'max-width', '1500px'
 // };
 
-var pageMain = $("<div class='page-main'></div>");
+var pageMain = $("<div class='page-donate'></div>");
 var mainContainer = $("<div class='container'></div>");
 var main = $("<div class='main'></div>");
 var mainWrapper = $("<div class='main__wrapper'></div>");

@@ -31,7 +31,7 @@
     padding: 50px 50px 100px 50px;
 }
 
-.inputer
+/* .inputer
 {
     width: 500px;
     border-radius: 20px;
@@ -39,7 +39,7 @@
     font-size: 25px;
     margin-top: 15px;
     margin-bottom: 15px;
-}
+} */
 
 .card-body-logIn__checkbox
 {
@@ -83,4 +83,5 @@
 {
     height: 450px;
     padding-top: 50px;
+    width: 40rem;
 }

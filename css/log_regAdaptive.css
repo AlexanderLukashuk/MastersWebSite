@@ -1,0 +1,12 @@
+@media (max-width : 750px)
+{
+    .card
+    {
+        width: 25em;
+    }
+
+    .group>input
+    {
+        width: 20em;
+    }
+}
