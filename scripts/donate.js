@@ -60,7 +60,11 @@ var mainWrapper = $("<div class='main__wrapper'></div>");
 var mainAuthor = $("<div class='main__author'>MEET BILLY</div>");
 var mainTitle = $("<h1 class='main__title'>Enter the donation amount</h1>");
 var mainSubtitle = $("<p class='main__subtitle'>All donations will be used to improve the site and the dungeon</p>");
-var inputDonate = $("<input class='donate' type='text' placeholder='Donate' id='inputDonate'>");
+// var inputDonate = $("<input class='donate' type='text' placeholder='Donate' id='inputDonate'>");
+var formDonate = $("<form class='inputs'></form>");
+var groupDonate = $("<div class='group'></div>");
+var lableDonate = $("<label>Email</label>");
+var inputDonate = $("<input type='text' class=''>");
 var get300BucksBtn = $("<button name='getBucks' id='btn_orange' class='btn'>Donate&rarr;</button>");
 
 
@@ -70,7 +74,10 @@ header.append(headerLogo.append(headerLogoImage)).append(headerMenu).append(head
 headerPage.append((headerContainer.append(header)));
 $("body").append(headerPage);
 
-mainWrapper.append(mainAuthor).append(mainTitle).append(mainSubtitle).append(inputDonate).append(get300BucksBtn);
+groupDonate.append(lableDonate).append(inputDonate);
+formDonate.append(groupDonate);
+
+mainWrapper.append(mainAuthor).append(mainTitle).append(mainSubtitle).append(formDonate).append(get300BucksBtn);
 main.append(mainWrapper);
 mainContainer.append(main);
 pageMain.append(mainContainer);
