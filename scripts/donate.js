@@ -62,7 +62,7 @@ var mainSubtitle = $("<p class='main__subtitle'>All donations will be used to im
 // var inputDonate = $("<input class='donate' type='text' placeholder='Donate' id='inputDonate'>");
 var formDonate = $("<form class='inputs'></form>");
 var groupDonate = $("<div class='group'></div>");
-var lableDonate = $("<label>Email</label>");
+var lableDonate = $("<label>Donate</label>");
 var inputDonate = $("<input type='text' class=''>");
 var get300BucksBtn = $("<button name='getBucks' id='btn_orange' class='btn'>Donate&rarr;</button>");
 
